@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>lesson 5.5</title>
+</head>
+
+<body>
+    <input id="nameInput" type="text" placeholder="Ismingizni kiriting" />
+    <button id="button" onclick="showName()">Isimni chiqarish</button>
+    <div id="displayName"></div>
+
+    <script>
+      function showName() {
+        let name = document.getElementById("nameInput").value
+        console.log(name)
+        document.getElementById("displayName").textContent = name
+      }
+    </script>
+</body>
+
+</html>

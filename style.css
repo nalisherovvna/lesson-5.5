@@ -1,0 +1,53 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: blue;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+#nameInput{
+    width: 400px;
+    height: 150px;
+    border-radius: 10px;
+    border: none;
+    padding: 15px;
+    background: #1b1b1b;
+}
+
+input{
+    color: white;
+    font-size: 20px;
+}
+
+#button{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#button:hover{
+    background: rgb(255, 0, 0);
+    color: white;
+    
+}
+
+#displayName{
+    color: yellow;
+    font-size: 80px;
+    margin-top: 60px;
+    font-family:cursive ;
+}
